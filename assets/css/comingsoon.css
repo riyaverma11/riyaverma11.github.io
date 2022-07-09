@@ -2,12 +2,14 @@
 body, html {
     height: 100%
   }
-  
+
+body {
+    background-color: lightpink;
+}
   .bgimg {
     /* Background image 
     background-image: url('/w3images/forestbridge.jpg');
     background-image: url('https://dcist.com/story/22/03/21/celebrate-dc-cherry-blossoms/'); */
-    background-color: lightpink;
     /* Full-screen */
     height: 100%;
     /* Center the background image */
