@@ -80,6 +80,9 @@ input, select, textarea {
 	h4.rightAlign {
 		text-align: right;
 	}
+	h4.leftAlign {
+		text-align: left;
+	}
 
 
 	@-ms-viewport {
