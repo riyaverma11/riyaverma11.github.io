@@ -77,13 +77,15 @@ input, select, textarea {
 	div.leftAlign {
 		text-align: left;
 	}
+
+	/* Oop these are flop
 	h4.rightAlign {
 		text-align: right;
 	}
 	h3.leftAlign {
 		text-align: left;
 	}
-
+	*/
 
 	@-ms-viewport {
 		width: device-width;
