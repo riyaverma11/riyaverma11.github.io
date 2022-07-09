@@ -77,6 +77,9 @@ input, select, textarea {
 	div.leftAlign {
 		text-align: left;
 	}
+	h4.rightAlign {
+		text-align: right;
+	}
 
 
 	@-ms-viewport {
