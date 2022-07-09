@@ -78,14 +78,14 @@ input, select, textarea {
 		text-align: left;
 	}
 
-	/* Oop these are flop
+	/*
 	h4.rightAlign {
 		text-align: right;
 	}
 	h3.leftAlign {
 		text-align: left;
 	}
-	*/
+*/
 
 	@-ms-viewport {
 		width: device-width;
@@ -2840,19 +2840,6 @@ input, select, textarea {
 			.features li > :last-child {
 				margin-bottom: 0;
 			}
-			.features .image {
-				display: inline-block;
-				margin-left: 2em;
-				padding: 0.6em;
-				border-radius: 100%;
-				border: solid 1px;
-			}
-	
-				.features .image img {
-					display: block;
-					border-radius: 100%;
-					width: 12em;
-				}
 
 		@media screen and (max-width: 980px) {
 
@@ -2862,15 +2849,6 @@ input, select, textarea {
 
 				.features li:nth-child(3) {
 					margin-top: 3em;
-				}
-
-				.features .image {
-					-moz-flex: 0 1 auto;
-					-webkit-flex: 0 1 auto;
-					-ms-flex: 0 1 auto;
-					flex: 0 1 auto;
-					margin-left: 0;
-					margin-bottom: 2em;
 				}
 
 		}
@@ -2892,18 +2870,6 @@ input, select, textarea {
 						margin-top: 2em;
 					}
 
-
-					.features .image {
-						padding: 0.35em;
-					}
-		
-						.features .image img {
-							width: 12em;
-						}
-		}
-
-		.features .image {
-			border-color: rgba(255, 255, 255, 0.35);
 		}
 
 /* Statistics */
