@@ -79,7 +79,8 @@ input, select, textarea {
 	}
 
 	p.educationSpacing {
-		margin-bottom: 1 em;
+		margin: 0;
+		line-height: 1.5;
 	}
 	/*
 	h4.rightAlign {
