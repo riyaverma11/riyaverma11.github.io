@@ -82,6 +82,13 @@ input, select, textarea {
 		line-height: 1.5;
 		margin: 0.65;
 	}
+
+	/* Position text in the top-left corner */
+	.topleft {
+	position: absolute;
+	top: 0;
+	left: 16px;
+  	}
 	/*
 	h4.rightAlign {
 		text-align: right;
