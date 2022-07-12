@@ -97,6 +97,21 @@ input, select, textarea {
 	top: 0;
 	left: 16px;
   	}
+
+	/* Style buttons */
+	.transcript {
+		background-color: DodgerBlue; /*originally dodgerblue*/
+		border: none;
+		color: white;
+		padding: 12px 30px;
+		cursor: pointer;
+		font-size: 20px;
+	}
+	
+	/* Darker background on mouse-over */
+	.transcript:hover {
+		background-color: RoyalBlue; /*originally royalblue*/
+	}
 	/*
 	h4.rightAlign {
 		text-align: right;
