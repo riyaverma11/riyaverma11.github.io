@@ -87,6 +87,11 @@ input, select, textarea {
 		margin: 0;
 	}
 
+	.classSpacing {
+		margin-top: 0.25;
+		margin-bottom: 0.35;
+	}
+
 	/* Position text in the top-left corner */
 	.topleft {
 	position: absolute;
