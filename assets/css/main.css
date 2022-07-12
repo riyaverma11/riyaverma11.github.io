@@ -80,10 +80,10 @@ input, select, textarea {
 
 	p.educationSpacing {
 		line-height: 1.5;
-		margin: 0;
+		margin-bottom: 0.25;
 	}
 	h3.certificatespacing {
-		margin-bottom: 0.5;
+		margin: 0.5;
 	}
 
 	/* Position text in the top-left corner */
