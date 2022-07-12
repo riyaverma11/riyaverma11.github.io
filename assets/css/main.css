@@ -82,6 +82,9 @@ input, select, textarea {
 		line-height: 1.5;
 		margin: 0.5;
 	}
+	h3.certificatespacing {
+		margin-bottom: 20%;
+	}
 
 	/* Position text in the top-left corner */
 	.topleft {
