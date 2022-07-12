@@ -82,7 +82,8 @@ input, select, textarea {
 		line-height: 1.5;
 		margin-bottom: 0.25;
 	}
-	h3.certificatespacing {
+
+	.certificatespacing {
 		margin: 0;
 	}
 
