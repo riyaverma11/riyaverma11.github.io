@@ -106,12 +106,12 @@ input, select, textarea {
 		padding: 12px 30px;
 		cursor: pointer;
 		font-size: 20px;
-		text-align: center;
+		/* text-align: center; */
 	}
 	
 	/* Darker background on mouse-over */
 	.transcript:hover {
-		background-color: RoyalBlue; /*originally royalblue*/
+		background-color:#7ec3ee; /*originally royalblue*/
 		color: white;
 	}
 	/*
