@@ -106,7 +106,7 @@ input, select, textarea {
 		padding: 12px 30px;
 		cursor: pointer;
 		font-size: 20px;
-		align-self: center;
+		text-align: center;
 	}
 	
 	/* Darker background on mouse-over */
