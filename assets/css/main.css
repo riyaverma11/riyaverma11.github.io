@@ -78,7 +78,7 @@ input, select, textarea {
 		text-align: left;
 	}
 
-	p.educationSpacing {
+	.educationSpacing {
 		line-height: 1.5;
 		margin-bottom: 0.25;
 	}
