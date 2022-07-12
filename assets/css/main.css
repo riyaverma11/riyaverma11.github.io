@@ -111,7 +111,7 @@ input, select, textarea {
 	
 	/* Darker background on mouse-over */
 	.transcript:hover {
-		background-color:#7ec3ee; /*originally royalblue*/
+		background-color:lightskyblue; /*originally royalblue*/
 		color: white;
 	}
 	/*
