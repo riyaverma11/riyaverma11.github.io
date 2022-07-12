@@ -100,7 +100,7 @@ input, select, textarea {
 
 	/* Style buttons */
 	.transcript {
-		background-color:lightskyblue; /*originally dodgerblue*/
+		background-color:#8cc9f0; /*originally dodgerblue*/
 		border: none;
 		color: white;
 		padding: 12px 30px;
