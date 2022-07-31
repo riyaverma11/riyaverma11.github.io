@@ -123,6 +123,10 @@ input, select, textarea {
 	}
 	*/
 
+	.tab {
+		tab-size: 8;
+	}
+
 	@-ms-viewport {
 		width: device-width;
 	}
