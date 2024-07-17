@@ -3209,19 +3209,19 @@ table.alt tbody tr td {
 }
 
 
-.active, .statistics:hover {
+.activeA, .statistics:hover {
 	background-color: pink;
   }
   
   .statistics:after {
 	content: '\002B';
-	color: white;
+	color: black;
 	font-weight: bold;
 	float: right;
 	margin-left: 5px;
   }
   
-  .active:after {
+  .activeA:after {
 	content: "\2212";
   }
   
