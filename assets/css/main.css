@@ -4136,7 +4136,8 @@ body.is-preload #header.alt .logo {
 	background-color: grey;
 	color: blue;
 	cursor: pointer;
-	padding: 2%;
+	/* padding: 2%; */
+	padding: center;
 	width: 100%;
 	border: none;
 	text-align: left;
