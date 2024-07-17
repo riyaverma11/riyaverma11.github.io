@@ -4131,3 +4131,39 @@ body.is-preload #header.alt .logo {
 	}
 
 }
+
+.collapsible {
+	background-color: grey;
+	color: blue;
+	cursor: pointer;
+	padding: 2%;
+	width: 100%;
+	border: none;
+	text-align: left;
+	outline: none;
+	font-size: 1.2em;
+  }
+  
+  .activeA, .collapsible:hover {
+	background-color: pink;
+  }
+  
+  .collapsible:after {
+	content: '\002B';
+	color: black;
+	font-weight: bold;
+	float: right;
+	margin-left: 5px;
+  }
+  
+  .activeA:after {
+	content: "\2212";
+  }
+  
+  .flop {
+	padding: 0 15px;
+	max-height: 0;
+	overflow: hidden;
+	transition: max-height 0.4s ease-out;
+	background-color: #f1f1f1;
+  }

@@ -326,6 +326,37 @@
 						which are highlighted below. For more information, click on the panel!</p>
 				</header>
 
+				<!-- TESTING COLLAPSIBLE INFO -->
+				<ul class="statistics">
+					<li class="style1">
+						<button class="collapsible">Open Collapsible</button>
+						<div class="flop">
+  							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut 
+								labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco 
+								laboris nisi ut aliquip ex ea commodo consequat.</p>
+						</div>
+					</li>
+				</ul>
+				
+				<script>
+					var coll = document.getElementsByClassName("collapsible");
+					var i;
+					
+					for (i = 0; i < coll.length; i++) {
+					  coll[i].addEventListener("click", function() {
+						this.classList.toggle("active");
+						var content = this.nextElementSibling;
+						if (content.style.maxHeight){
+						  content.style.maxHeight = null;
+						} else {
+						  content.style.maxHeight = content.scrollHeight + "px";
+						} 
+					  });
+					}
+				</script>
+				<!-- TESTING COLLAPSIBLE INFO -->
+
+				
 				<ul class="statistics">
 					<li class="style1">
 						<span class="icon solid fa-award"></span>
@@ -365,14 +396,14 @@
 						</a>2020-2024
 					</li>
 
-					<li>
+					<li class="style1">
 						<span class="icon solid fa-school"></span>
 						<a href="https://www.purdue.edu/science/Current_Students/advising/certificate-about.html" target="_blank">
 							<strong>Semester Honors</strong> 
 						</a>2020-2024
 					</li>
 				</ul>
-				
+
 			</section> <!-- End of the awards section -->
 
 		</div> <!-- End of the main page-->
