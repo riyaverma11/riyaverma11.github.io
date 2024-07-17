@@ -4169,6 +4169,7 @@ body.is-preload #header.alt .logo {
   }
 
   .collapsible1 {
+	border: none;
 	background-color: grey;
 	color: blue;
 	cursor: pointer;
