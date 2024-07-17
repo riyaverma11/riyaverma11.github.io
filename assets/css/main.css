@@ -2059,11 +2059,11 @@ input, select, textarea {
 		border: none;
 		text-align: left;
 		outline: none;
-		font-size: 1.2em;
+		font-size: 1em;
 	}
 	
 	.active, .collapsible:hover {
-		background-color: #555;
+		background-color: pink;
 	}
 	
 	.collapsible:after {
