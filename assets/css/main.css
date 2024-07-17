@@ -2308,43 +2308,6 @@ button.primary.icon:before,
 	color: #ffffff !important;
 }
 
-/* Collapsible CSS */
-	.collapsible {
-		background-color: lightblue;
-		color: white;
-		cursor: pointer;
-		padding: 2%;
-		width: 100%;
-		border: none;
-		text-align: left;
-		outline: none;
-		font-size: 1em;
-	}
-	
-	.active, .collapsible:hover {
-		background-color: pink;
-	}
-	
-	.collapsible:after {
-		content: '\002B';
-		color: black;
-		font-weight: bold;
-		float: right;
-		margin-left: 5px;
-	}
-	
-	.active:after {
-		content: "\2212";
-	}
-	
-	.collapseContent {
-		padding: 0 15px;
-		max-height: 0;
-		overflow: hidden;
-		transition: max-height 0.2s ease-out;
-		background-color: #f1f1f1;
-	}
-
 
 /* Form */
 
