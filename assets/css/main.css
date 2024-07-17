@@ -4198,7 +4198,7 @@ body.is-preload #header.alt .logo {
   }
   
   .flop1 {
-	padding: 0 15px;
+	padding: 0 50px;
 	max-height: 0;
 	overflow: hidden;
 	transition: max-height 0.4s ease-out;
