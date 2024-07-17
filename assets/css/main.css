@@ -2052,9 +2052,9 @@ input, select, textarea {
 /* Collapsible CSS */
 	.collapsible {
 		background-color: lightblue;
-		color: white;
+		color: black;
 		cursor: pointer;
-		padding: 18px;
+		padding: 2%;
 		width: 100%;
 		border: none;
 		text-align: left;
