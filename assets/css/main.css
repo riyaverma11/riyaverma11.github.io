@@ -2313,7 +2313,7 @@ button.primary.icon:before,
 		background-color: lightblue;
 		color: white;
 		cursor: pointer;
-		padding: 18px;
+		padding: 2%;
 		width: 100%;
 		border: none;
 		text-align: left;
@@ -2338,7 +2338,7 @@ button.primary.icon:before,
 	}
 	
 	.collapseContent {
-		padding: 18px;
+		padding: 0 15px;
 		max-height: 0;
 		overflow: hidden;
 		transition: max-height 0.2s ease-out;
