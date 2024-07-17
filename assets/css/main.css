@@ -2050,8 +2050,8 @@ input, select, textarea {
 			}
 
 /* Collapsible CSS */
-	/* .collapsible {
-		background-color: #777;
+	.collapsible {
+		background-color: lightblue;
 		color: white;
 		cursor: pointer;
 		padding: 18px;
@@ -2059,7 +2059,7 @@ input, select, textarea {
 		border: none;
 		text-align: left;
 		outline: none;
-		font-size: 15px;
+		font-size: 1.2em;
 	}
 	
 	.active, .collapsible:hover {
@@ -2068,7 +2068,7 @@ input, select, textarea {
 	
 	.collapsible:after {
 		content: '\002B';
-		color: white;
+		color: black;
 		font-weight: bold;
 		float: right;
 		margin-left: 5px;
@@ -2084,7 +2084,7 @@ input, select, textarea {
 		overflow: hidden;
 		transition: max-height 0.2s ease-out;
 		background-color: #f1f1f1;
-	} */
+	}
 
 
 /* Form */
