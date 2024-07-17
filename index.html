@@ -327,21 +327,29 @@
 				</header>
 				<ul class="statistics">
 					<li class="style1">
+						<div class="flop">
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt 
+								ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
+								nisi ut aliquip ex ea commodo consequat.</p>
+						  </div>
+					</li>
+				</ul>
+				<ul class="statistics">
+					<li class="style1">
 						<span class="icon solid fa-award"></span>
 						<a href="https://www.cs.purdue.edu/news/articles/2023/2023_purdue_cs_awards.html" target="_blank">
 							<strong>Outstanding Junior in Computer Science</strong>
 						</a> 2023
 					</li>
+					
 					<li class="style2">
 						<span class="icon solid fa-award"></span>
 							<strong>1st Place Cisco Supply Chain Showcase</strong>
 						</a> 2023
 					</li>
-
 				</ul>
 				<br>
 				<ul class="statistics">
-					
 					<li class="style3">
 						<span class="icon solid fa-graduation-cap"></span>
 						<a href="https://www.admissions.purdue.edu/costsandfinaid/freshman.php?_ga=2.43870061.996787334.1623767074-1481375870.1623767074" target="_blank">
@@ -355,25 +363,39 @@
 							<strong>National Merit Scholar</strong> 
 						</a>2020-2024
 					</li>
-					</a>
 				</ul>
 				<br>
 				<ul class="statistics">
-				
 					<li class="style5">
 						<span class="icon solid fa-school"></span>
 						<a href="https://www.purdue.edu/science/Current_Students/advising/certificate-about.html" target="_blank">
 							<strong>Dean's List</strong> 
 						</a>2020-2024
 					</li>
+
 					<li class="style1">
 						<span class="icon solid fa-school"></span>
 						<a href="https://www.purdue.edu/science/Current_Students/advising/certificate-about.html" target="_blank">
 							<strong>Semester Honors</strong> 
 						</a>2020-2024
 					</li>
-				
 				</ul>
+				<script>
+					var coll = document.getElementsByClassName("collapsible");
+					var i;
+					
+					for (i = 0; i < coll.length; i++) {
+					  coll[i].addEventListener("click", function() {
+						this.classList.toggle("active");
+						var content = this.nextElementSibling;
+						if (content.style.maxHeight){
+						  content.style.maxHeight = null;
+						} else {
+						  content.style.maxHeight = content.scrollHeight + "px";
+						} 
+					  });
+					}
+					</script>
 
 			</section> <!-- End of the awards section -->
 
