@@ -3200,38 +3200,8 @@ table.alt tbody tr td {
 	margin: 0 0 3em 0;
 	padding: 0;
 	list-style: none;
-	/* cursor: default; */
-	cursor: pointer;
-  	border: none;
-  	text-align: left;
-  	outline: none;
-  	font-size: 1.2em;
+	cursor: default;
 }
-
-
-.activeA, .statistics:hover {
-	background-color: pink;
-  }
-  
-  .statistics:after {
-	content: '\002B';
-	color: black;
-	font-weight: bold;
-	float: right;
-	margin-left: 5px;
-  }
-  
-  .activeA:after {
-	content: "\2212";
-  }
-  
-  .flop {
-	padding: 0 15px;
-	max-height: 0;
-	overflow: hidden;
-	transition: max-height 0.4s ease-out;
-	background-color: #f1f1f1;
-  }
 
 .statistics li {
 	-moz-flex: 1;
