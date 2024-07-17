@@ -4181,7 +4181,7 @@ body.is-preload #header.alt .logo {
   }
   
   .activeA, .collapsible1:hover {
-	background-color: white;
+	background-color: blue;
   }
   
   .collapsible1:after {
@@ -4197,7 +4197,7 @@ body.is-preload #header.alt .logo {
   }
   
   .flop1 {
-	padding: 3%;
+	padding: 30px;
 	max-height: 0;
 	overflow: hidden;
 	transition: max-height 0.4s ease-out;
