@@ -2054,7 +2054,7 @@ input, select, textarea {
 		background-color: lightblue;
 		color: black;
 		cursor: pointer;
-		padding: 2%;
+		padding: 18px;
 		width: 100%;
 		border: none;
 		text-align: left;
