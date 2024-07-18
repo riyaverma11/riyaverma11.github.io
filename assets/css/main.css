@@ -4148,7 +4148,7 @@ body.is-preload #header.alt .logo {
 	border-bottom-right-radius: 0px;
   }
   
-  .activeA, .collapsible:hover {
+  .active, .collapsible:hover {
 	background-color: pink;
   }
   
