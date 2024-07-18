@@ -344,16 +344,6 @@
 						labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco 
 						laboris nisi ut aliquip ex ea commodo consequat.</p>
 				</div>
-				<ul class="statistics">
-					<li class="style1">
-						<button class="collapsible1">Open Collapsible</button>
-						<div class="flop1">
-  							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut 
-								labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco 
-								laboris nisi ut aliquip ex ea commodo consequat.</p>
-						</div>
-					</li>
-				</ul>
 				
 				<script>
 					var coll = document.getElementsByClassName("collapsible");
@@ -371,24 +361,8 @@
 					  });
 					}
 				</script>
-				<script>
-					var coll = document.getElementsByClassName("collapsible1");
-					var i;
-					
-					for (i = 0; i < coll.length; i++) {
-					  coll[i].addEventListener("click", function() {
-						this.classList.toggle("active");
-						var content = this.nextElementSibling;
-						if (content.style.maxHeight){
-						  content.style.maxHeight = null;
-						} else {
-						  content.style.maxHeight = content.scrollHeight + "px";
-						} 
-					  });
-					}
-				</script>
 
-				<!-- <ul class="statistics">
+				<ul class="statistics">
 					<li class="style1">
 						<span class="icon solid fa-award"></span>
 						<a href="https://www.cs.purdue.edu/news/articles/2023/2023_purdue_cs_awards.html" target="_blank">
@@ -433,7 +407,7 @@
 							<strong>Semester Honors</strong> 
 						</a>2020-2024
 					</li>
-				</ul> -->
+				</ul>
 
 			</section> <!-- End of the awards section -->
 
