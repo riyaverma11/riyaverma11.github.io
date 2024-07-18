@@ -4156,16 +4156,16 @@ body.is-preload #header.alt .logo {
 	margin-left: 5px;
   }
   
-  .activeA:after {
+  .collapsible.active:after {
 	content: "\2212";
   }
   
   .flop {
-	padding: 0 15px;
+	padding: 0 30px;
 	max-height: 0;
 	overflow: hidden;
 	transition: max-height 0.4s ease-out;
-	background-color: #f1f1f1;
+	background-color: skyblue;
   }
 
   .collapsible1 {
