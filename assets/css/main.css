@@ -4142,6 +4142,11 @@ body.is-preload #header.alt .logo {
 	text-align: left;
 	outline: none;
 	font-size: 1.2em;
+	font-size: 1.2em;
+	border-top-left-radius: 0px;
+	border-bottom-left-radius: 0px;
+	border-top-right-radius: 0px;
+	border-bottom-right-radius: 0px;
   }
   
   .activeA, .collapsible:hover {
@@ -4166,6 +4171,11 @@ body.is-preload #header.alt .logo {
 	overflow: hidden;
 	transition: max-height 0.4s ease-out;
 	background-color: skyblue;
+	font-size: 1.2em;
+	border-top-left-radius: 0px;
+	border-bottom-left-radius: 0px;
+	border-top-right-radius: 0px;
+	border-bottom-right-radius: 0px;
   }
 
   .collapsible1 {
