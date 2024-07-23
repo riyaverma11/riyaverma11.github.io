@@ -4152,6 +4152,14 @@ body.is-preload #header.alt .logo {
 	background-color: pink;
   }
   
+  .collapsible:before {
+	content: '\002B';
+	color: black;
+	font-weight: bold;
+	float: right;
+	margin-right: 5px;
+  }
+
   .collapsible:after {
 	content: '\002B';
 	color: black;
