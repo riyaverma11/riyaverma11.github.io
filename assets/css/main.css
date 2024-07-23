@@ -4154,7 +4154,7 @@ body.is-preload #header.alt .logo {
 
   .collapsible:after {
 	content: '\002B';
-	color: black;
+	/* color: black; */
 	font-weight: bold;
 	float: right;
 	margin-left: 5px;
@@ -4169,7 +4169,7 @@ body.is-preload #header.alt .logo {
 	max-height: 0;
 	overflow: hidden;
 	transition: max-height 0.4s ease-out;
-	background-color: #f1f1f1;
+	background-color: #f8f5f5;
 	font-size: 1.2em;
 	border-top-left-radius: 0px;
 	border-bottom-left-radius: 0px;
