@@ -326,46 +326,90 @@
 						which are highlighted below. For more information, click on the panel!</p>
 				</header>
 
+				<!-- OUTSTANDING JUNIOR -->
 				<button class="collapsible" style="background-color: #efa8b0;">
 					<span class="icon solid fa-award">&nbsp;&nbsp;</span>
-					&nbsp;&nbsp;Outstanding Junior in Computer Science
+					Outstanding Junior in Computer Science
 				</button>
 				<div class="flop">
-  					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut 
-						labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco 
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+						labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
 						laboris nisi ut aliquip ex ea commodo consequat.</p>
 				</div>
-				<button class="collapsible">1st Place Cisco Supply Chain Showcase</button>
+
+				<!-- CISCO -->
+				<button class="collapsible" style="background-color: #c79cc8;">
+					<span class="icon solid fa-award">&nbsp;&nbsp;</span>
+					1<sup>st</sup> Place Cisco Supply Chain Showcase
+				</button>
 				<div class="flop">
-  					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut 
-						labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco 
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+						labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
 						laboris nisi ut aliquip ex ea commodo consequat.</p>
 				</div>
-				<button class="collapsible">Purdue Presidential Scholar</button>
+
+				<!-- PRESIDENTIAL -->
+				<button class="collapsible" style="background-color: #a89cc8;">
+					<span class="icon solid fa-graduation-cap">&nbsp;&nbsp;</span>
+					Purdue Presidential Scholar
+				</button>
 				<div class="flop">
-  					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut 
-						labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco 
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+						labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
 						laboris nisi ut aliquip ex ea commodo consequat.</p>
 				</div>
-				
+
+				<!-- NATIONAL MERIT -->
+				<button class="collapsible" style="background-color: #9bb2e1;">
+					<span class="icon solid fa-graduation-cap">&nbsp;&nbsp;</span>
+					National Merit Scholar
+				</button>
+				<div class="flop">
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+						labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+						laboris nisi ut aliquip ex ea commodo consequat.</p>
+				</div>
+
+				<!-- DEANS -->
+				<button class="collapsible" style="background-color: #8cc9f0;">
+					<span class="icon solid fa-school">&nbsp;&nbsp;</span>
+					Dean's List
+				</button>
+				<div class="flop">
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+						labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+						laboris nisi ut aliquip ex ea commodo consequat.</p>
+				</div>
+
+				<!-- SEMESTERS -->
+				<button class="collapsible" style="background-color: #efa8b0;">
+					<span class="icon solid fa-school">&nbsp;&nbsp;</span>
+					Semester Honors
+				</button>
+				<div class="flop">
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+						labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+						laboris nisi ut aliquip ex ea commodo consequat.</p>
+				</div>
+
 				<script>
 					var coll = document.getElementsByClassName("collapsible");
 					var i;
-					
+
 					for (i = 0; i < coll.length; i++) {
-					  coll[i].addEventListener("click", function() {
-						this.classList.toggle("active");
-						var content = this.nextElementSibling;
-						if (content.style.maxHeight){
-						  content.style.maxHeight = null;
-						} else {
-						  content.style.maxHeight = content.scrollHeight + "px";
-						} 
-					  });
+						coll[i].addEventListener("click", function () {
+							this.classList.toggle("active");
+							var content = this.nextElementSibling;
+							if (content.style.maxHeight) {
+								content.style.maxHeight = null;
+							} else {
+								content.style.maxHeight = content.scrollHeight + "px";
+							}
+						});
 					}
 				</script>
 
-				<ul class="statistics">
+				<!-- <ul class="statistics">
 					<li class="style1">
 						<span class="icon solid fa-award"></span>
 						<a href="https://www.cs.purdue.edu/news/articles/2023/2023_purdue_cs_awards.html" target="_blank">
@@ -410,7 +454,7 @@
 							<strong>Semester Honors</strong> 
 						</a>2020-2024
 					</li>
-				</ul>
+				</ul> -->
 
 			</section> <!-- End of the awards section -->
 
