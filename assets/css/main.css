@@ -4148,8 +4148,8 @@ body.is-preload #header.alt .logo {
 	border-bottom-right-radius: 0px;
   }
   
-  .active, .collapsible:hover {
-	background-color: pink;
+  .collapsible.active, .collapsible:hover {
+	background-color: blue;
   }
   
   .collapsible:before {
