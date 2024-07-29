@@ -2614,23 +2614,29 @@ input[type="radio"]:focus+label:before {
 }
 
 .icon.style1 {
-	color: #efa8b0;
+	/* color: #efa8b0; */
+	color: #a37ab4;
+	
 }
 
 .icon.style2 {
-	color: #c79cc8;
+	/* color: #c79cc8; */
+	color: #d486b8;
 }
 
 .icon.style3 {
-	color: #a89cc8;
+	/* color: #a89cc8; */
+	color: #f1b1c1;
 }
 
 .icon.style4 {
-	color: #9bb2e1;
+	/* color: #9bb2e1; */
+	color: #abbcd6;
 }
 
 .icon.style5 {
-	color: #8cc9f0;
+	/* color: #8cc9f0; */
+	color: #b4d8e8;
 }
 
 @media screen and (max-width: 1680px) {
