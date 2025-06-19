@@ -13,7 +13,12 @@ body {
     height: 100vh;
     width: 100vw;
 	overflow: hidden;
-	background: #f1c40f;
+	/* background: #935d8c; */
+    background-color: #935d8c;
+	background-image: url("images/overlay.png"), -moz-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
+	background-image: url("images/overlay.png"), -webkit-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
+	background-image: url("images/overlay.png"), -ms-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
+	background-image: url("images/overlay.png"), linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
 }
 
 .flipbook {
@@ -22,7 +27,7 @@ body {
 }
 
 .flipbook .hard {
-    background: #c0392b !important;
+    background: #a6cfdc !important;
     color: #fff;
     font-weight: bold;
     border: none; 
