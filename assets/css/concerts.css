@@ -22,8 +22,10 @@ body {
 }
 
 .flipbook {
-    width: 1200px;
-    height: 700px;
+    /* width: 1200px;
+    height: 700px; */
+    width: 85%;
+    height: 100%;
 }
 
 .flipbook .hard {
