@@ -152,20 +152,13 @@
     <script src="jquery.js"></script>
     <script src="turn.js"></script>
     <script>
-        function updateFlipbookSize() {
-            const $flipbook = $(".flipbook");
-            const width = $flipbook.width();
-            const height = $flipbook.height();
-            $flipbook.turn("size", width, height);
-        }
-    
         $(".flipbook").turn({
-            width: $(".flipbook").width(),
-            height: $(".flipbook").height(),
+            width: 1000,
+            height: 600,
             autoCenter: true,
-            acceleration: true,
             display: 'double',
-            elevation: 50, // 🟣 enables the page shadow
+            elevation: 50,
+            acceleration: true,
             duration: 800,
             page: 1,
             when: {
@@ -181,14 +174,6 @@
                 }
             }
         });
-    
-        // Resize flipbook on window resize
-        $(window).on('resize', function () {
-            updateFlipbookSize();
-        });
-    
-        // Initial adjustment
-        updateFlipbookSize();
     </script>
     
     <!-- <script>

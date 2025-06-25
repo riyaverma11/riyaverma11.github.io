@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
 
 * {
     margin: 0;
@@ -7,13 +7,10 @@
     font-family: "Poppins", sans-serif;
 }
 
-html, body {
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
-}
-
 body {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -22,36 +19,28 @@ body {
 }
 
 .flipbook-container {
-    display: flex;
     transition: all 0.6s ease;
-    width: 100%;
-    height: 100%;
     overflow: hidden;
-    padding: 20px;
-}
-
-.flipbook-container.centered {
+    display: flex;
     justify-content: center;
+    align-items: center;
+    width: 100%;
 }
 
 .flipbook-container.shift-left {
     justify-content: flex-start;
-    padding-left: calc(50vw - 500px); /* centers shift-left if flipbook is 1000px */
+    padding-left: calc(50vw - 500px); /* half of book width */
 }
 
 .flipbook {
-    width: 90vw;
-    max-width: 1000px;
-    height: 60vh;
-    max-height: 700px;
-    margin: auto;
+    width: 1000px;
+    height: 600px;
 }
 
 .flipbook .hard {
     background: #a6cfdc !important;
-    color: #fff;
+    color: white;
     font-weight: bold;
-    border: none;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -65,6 +54,7 @@ body {
     font-weight: lighter;
     opacity: 0.7;
     font-size: 14px;
+    margin-top: 10px;
 }
 
 .flipbook .page {
@@ -74,9 +64,7 @@ body {
     justify-content: center;
     align-items: center;
     gap: 10px;
-    border: 1px solid rgba(0, 0, 0, 0.11);
-    padding: 10px;
-    box-sizing: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 .page img {
@@ -89,4 +77,12 @@ body {
     font-size: 14px;
     margin-bottom: 10px;
     text-align: center;
+}
+
+/* Optional: mobile-friendly fallback */
+@media (max-width: 768px) {
+    .flipbook {
+        transform: scale(0.85);
+        transform-origin: top center;
+    }
 }
