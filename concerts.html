@@ -152,6 +152,46 @@
     <script src="jquery.js"></script>
     <script src="turn.js"></script>
     <script>
+        function updateFlipbookSize() {
+            const $flipbook = $(".flipbook");
+            const width = $flipbook.width();
+            const height = $flipbook.height();
+            $flipbook.turn("size", width, height);
+        }
+    
+        $(".flipbook").turn({
+            width: $(".flipbook").width(),
+            height: $(".flipbook").height(),
+            autoCenter: true,
+            acceleration: true,
+            display: 'double',
+            elevation: 50, // 🟣 enables the page shadow
+            duration: 800,
+            page: 1,
+            when: {
+                turning: function (event, page, view) {
+                    const totalPages = $(this).turn("pages");
+                    const container = $(".flipbook-container");
+    
+                    if (page === 1 || page === totalPages) {
+                        container.removeClass("shift-left").addClass("centered");
+                    } else {
+                        container.removeClass("centered").addClass("shift-left");
+                    }
+                }
+            }
+        });
+    
+        // Resize flipbook on window resize
+        $(window).on('resize', function () {
+            updateFlipbookSize();
+        });
+    
+        // Initial adjustment
+        updateFlipbookSize();
+    </script>
+    
+    <!-- <script>
         $(".flipbook").turn({
             width: 1000,
             height: 600,
@@ -159,9 +199,10 @@
             acceleration: true,
             display: 'double',
             page: 1,
-            duration: 800
+            duration: 800,
+            elevation: 50
         });
-    </script>
+    </script> -->
     
     <!-- <script>
         $(".flipbook").turn();
