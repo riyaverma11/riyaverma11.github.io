@@ -62,3 +62,22 @@ body {
 	font-size: 14px;
     margin-bottom: 10px;
 }
+
+.flipbook-container {
+    display: flex;
+    width: 100vw;
+    transition: all 0.6s ease;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    /* This keeps the height from being cut off */
+    overflow: hidden;
+}
+
+.flipbook-container.centered {
+    justify-content: center;
+}
+
+.flipbook-container.shift-left {
+    justify-content: flex-start;
+    padding-left: calc(50vw - 500px); /* 500px = half of .flipbook width */
+}

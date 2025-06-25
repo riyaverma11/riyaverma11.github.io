@@ -147,8 +147,27 @@
     <script src="jquery.js"></script>
     <script src="turn.js"></script>
     <script>
-        $(".flipbook").turn();
+        $(".flipbook").turn({
+            width: 1000, // match your CSS
+            height: 600,
+            autoCenter: false,
+            when: {
+                turning: function (event, page, view) {
+                    const totalPages = $(this).turn("pages");
+                    const container = $(".flipbook-container");
+
+                    if (page === 1 || page === totalPages) {
+                        container.removeClass("shift-left").addClass("centered");
+                    } else {
+                        container.removeClass("centered").addClass("shift-left");
+                    }
+                }
+            }
+        });
     </script>
+    <!-- <script>
+        $(".flipbook").turn();
+    </script> -->
 </body>
 
 </html>
