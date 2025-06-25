@@ -156,38 +156,12 @@
             width: 1000,
             height: 600,
             autoCenter: true,
-            display: 'double',
-            elevation: 50,
             acceleration: true,
-            duration: 800,
+            display: 'double',
             page: 1,
-            when: {
-                turning: function (event, page, view) {
-                    const totalPages = $(this).turn("pages");
-                    const container = $(".flipbook-container");
-    
-                    if (page === 1 || page === totalPages) {
-                        container.removeClass("shift-left").addClass("centered");
-                    } else {
-                        container.removeClass("centered").addClass("shift-left");
-                    }
-                }
-            }
+            duration: 800
         });
     </script>
-    
-    <!-- <script>
-        $(".flipbook").turn({
-            width: 1000,
-            height: 600,
-            autoCenter: true,
-            acceleration: true,
-            display: 'double',
-            page: 1,
-            duration: 800,
-            elevation: 50
-        });
-    </script> -->
     
     <!-- <script>
         $(".flipbook").turn();
