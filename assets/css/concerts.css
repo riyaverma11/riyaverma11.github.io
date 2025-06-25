@@ -12,7 +12,8 @@ body {
     place-content: center;
     height: 100vh;
     width: 100vw;
-	overflow: hidden;
+	/* overflow: hidden; */
+    overflow: auto;
 	/* background: #935d8c; */
     background-color: #935d8c;
 	background-image: url("images/overlay.png"), -moz-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
@@ -22,8 +23,10 @@ body {
 }
 
 .flipbook {
-    width: 1000px;
-    height: 600px;
+    max-width: 100%;
+    height: auto;
+    /* width: 1000px;
+    height: 600px; */
     /* width: 70%;
     height: 70%; */
 }
