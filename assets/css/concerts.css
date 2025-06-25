@@ -81,3 +81,9 @@ body {
     justify-content: flex-start;
     padding-left: calc(50vw - 500px); /* 500px = half of .flipbook width */
 }
+
+.topleft {
+	position: absolute;
+	top: 0;
+	left: 16px;
+}
