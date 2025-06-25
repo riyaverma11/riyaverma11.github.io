@@ -148,15 +148,19 @@
     <script src="turn.js"></script>
     <script>
         $(".flipbook").turn({
-            width: 1000, // match your CSS
+            width: 1000,
             height: 600,
             autoCenter: false,
+            acceleration: true,
+            display: 'double',
+            duration: 800,
             when: {
                 turning: function (event, page, view) {
                     const totalPages = $(this).turn("pages");
                     const container = $(".flipbook-container");
 
-                    if (page === 1 || page === totalPages) {
+                    // First page or last page = single page view
+                    if (page === 1 || page === totalPages - 1) {
                         container.removeClass("shift-left").addClass("centered");
                     } else {
                         container.removeClass("centered").addClass("shift-left");
